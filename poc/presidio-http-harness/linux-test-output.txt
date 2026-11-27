@@ -1,0 +1,3 @@
+COMMAND: cached Linux Go 1.26.9 test -race -cover ./... (fake HTTP servers only)
+ok  	spike/presidio-http-harness	1.227s	coverage: 64.9% of statements
+EXIT=0
