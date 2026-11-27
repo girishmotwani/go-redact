@@ -1,0 +1,11 @@
+COMMAND: atom check .\poc\presidio-http-harness --no-colour
+atom check C:\Users\gimotwan\work\go-redact\poc\presidio-http-harness
+
+  PASS  build  go build ./... passed (8.8s)
+  PASS  vet    go vet ./... passed (0.8s)
+  PASS  fmt    gofmt -l . reported no unformatted files (0.1s)
+  PASS  test   go test ./... passed (1.0s)
+  PASS  race   go test -race ./... passed (1.0s)
+
+  PASSED in 11.7s
+EXIT=0

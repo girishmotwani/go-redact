@@ -1,0 +1,16 @@
+COMMAND: atom poc run presidio-http-harness --timeout 120 --no-colour
+STARTED_UTC=2026-11-26T11:10:10.7930218Z
+atom poc run presidio-http-harness  (command spike)
+
+  PASS  vet     ok
+  PASS  build   ok
+  PASS  execute ok
+
+  stdout:
+    GET /health status=200
+    POST /analyze status=200 detections=1
+    result=passed scope=http_only
+
+  Verdict: CONFIRMED  (exit 0) -- the question was answered yes
+ENDED_UTC=2026-11-26T11:10:20.7818244Z
+OUTER_EXIT=0
