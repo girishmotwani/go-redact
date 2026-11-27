@@ -1,0 +1,5 @@
+{
+  "build_command": "go build ./...",
+  "module_path": "github.com/girishmotwani/go-redact",
+  "test_command": "go test ./..."
+}

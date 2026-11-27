@@ -1,0 +1,13 @@
+# >>> Atom generated runtime files >>>
+# Machine-local Atom runtime data; project configuration and approvals stay tracked.
+.atom/baseline.json
+.atom/events.jsonl
+.atom/events.lock
+# <<< Atom generated runtime files <<<
+
+# Keep vendored tooling and machine-local workflow state out of source control.
+.atom/*
+!.atom/config.json
+
+# Go command build outputs.
+*.exe
